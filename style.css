@@ -1,0 +1,64 @@
+body {
+    margin: 20px;
+    margin-left: 7%;
+    margin-top: 0%;
+}
+
+h1 {
+    text-align: left;
+    width: 100%;
+}
+S
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+#main_image{
+    width: 70%;
+}
+#author{
+    color: orange;
+}
+.figure_text{
+    font-size: 15px;
+    color: orange;
+    text-decoration: underline;
+    text-decoration-color:black;
+}
+.container {
+    display: grid; 
+    grid-template-columns: 3.5fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0% 10%; 
+  }
+    ul.navbar {
+      list-style-type: none;
+      height: 50px;
+      padding: 15px 0;
+      margin: 0;
+      background-color: orange;
+      font-size: 18px;
+    }
+
+    ul.navbar li {
+        display: inline;
+      
+    }
+
+    ul.navbar li a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    ul.navbar li a:hover {
+      text-decoration: underline;
+    }
+footer{
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    margin-top: auto;
+}
