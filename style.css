@@ -58,7 +58,8 @@ p {
 footer{
     background-color: orange;
     padding: 20px;
-    text-align: center;
+    text-align: left;
     color: black;
     margin-top: auto;
+    font-weight: bold;
 }
